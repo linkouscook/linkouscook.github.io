@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
-import type { GraphData } from './lib/model'
-import { graphSchema } from './lib/model'
+
 import { FamilyGraph } from './components/FamilyGraph'
 import { Pedigree } from './components/Pedigree'
+import { graphSchema } from './lib/model'
+
+import type { GraphData } from './lib/model'
 import './components/pedigree.css'
 
 export default function App() {

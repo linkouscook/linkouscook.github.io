@@ -4,7 +4,7 @@ import './pedigree.css'
 function get(byId: Map<string, Person>, id?: string) { return id ? byId.get(id) : undefined }
 
 function Card({ p }: { p?: Person }) {
-  if (!p) return <div className="card empty">—</div>
+  if (!p) return <div className='card empty'>—</div>
   const name = `${p.given} ${p.surname}`
   const label = p.isLiving ? name.split(' ').map(s=>s[0]).join('') : name
   return (
@@ -29,10 +29,10 @@ export function Pedigree({ data, focusId }: { data: GraphData; focusId: string }
   const mm = get(byId, m1?.parents?.motherId)
 
   return (
-    <div className="pedigree">
-      <div className="gen gen0"><Card p={proband} /></div>
-      <div className="gen gen1"><Card p={f1} /><Card p={m1} /></div>
-      <div className="gen gen2"><Card p={ff} /><Card p={fm} /><Card p={mf} /><Card p={mm} /></div>
+    <div className='pedigree'>
+      <div className='gen gen0'><Card p={proband} /></div>
+      <div className='gen gen1'><Card p={f1} /><Card p={m1} /></div>
+      <div className='gen gen2'><Card p={ff} /><Card p={fm} /><Card p={mf} /><Card p={mm} /></div>
     </div>
   )
 }

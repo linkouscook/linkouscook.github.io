@@ -1,7 +1,10 @@
 import { useEffect, useRef } from 'react'
+
 import { Network } from 'vis-network/standalone'
-import type { GraphData } from '../lib/model'
+
 import { buildGraph } from '../lib/graph'
+
+import type { GraphData } from '../lib/model'
 
 export function FamilyGraph({ data }: { data: GraphData }) {
   const ref = useRef<HTMLDivElement | null>(null)
