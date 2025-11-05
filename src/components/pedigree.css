@@ -1,0 +1,9 @@
+/* src/components/pedigree.css */
+.pedigree { display: grid; gap: 12px; }
+.gen { display: grid; gap: 8px; }
+.gen0 { grid-template-columns: 1fr; }
+.gen1 { grid-template-columns: 1fr 1fr; }
+.gen2 { grid-template-columns: repeat(4, 1fr); }
+.card { padding: 8px 10px; border: 1px solid #bbb; border-radius: 8px; background: #fafafa; }
+.card.living { background: #e8f0fe; }
+.card.empty { opacity: 0.5; font-style: italic; }
