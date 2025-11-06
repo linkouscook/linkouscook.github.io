@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 
 import { FamilyGraph } from './components/FamilyGraph'
-import { graphSchema } from './lib/model'
-
 import type { GraphData } from './lib/model'
 
 export default function App() {
@@ -11,11 +9,8 @@ export default function App() {
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + 'data/nate-and-courtney.json')
       .then(r => r.json())
-      .then(json => {
-        const parsed = graphSchema.safeParse(json)
-        if (parsed.success) setData(parsed.data)
-        else console.error(parsed.error)
-      })
+      .then(json => setData(json as GraphData))
+      .catch(err => console.error(err))
   }, [])
 
   if (!data) {

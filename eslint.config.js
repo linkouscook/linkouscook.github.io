@@ -49,7 +49,6 @@ export default defineConfig([
           ],
           pathGroupsExcludedImportTypes: ['react'],
           alphabetize: { order: 'asc', caseInsensitive: true },
-          'newlines-between': 'always',
         },
       ],
     },
