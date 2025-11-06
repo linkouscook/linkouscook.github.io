@@ -1,15 +1,12 @@
 import { useEffect, useState } from 'react'
 
 import { FamilyGraph } from './components/FamilyGraph'
-import { Pedigree } from './components/Pedigree'
 import { graphSchema } from './lib/model'
 
 import type { GraphData } from './lib/model'
-import './components/pedigree.css'
 
 export default function App() {
   const [data, setData] = useState<GraphData | null>(null)
-  const [focusId, setFocusId] = useState('courtney')
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + 'data/nate-and-courtney.json')
@@ -21,18 +18,29 @@ export default function App() {
       })
   }, [])
 
-  if (!data) return <div style={{ padding: 16 }}>Loading…</div>
+  if (!data) {
+    return (
+      <div style={{ padding: 16, fontSize: 16, fontWeight: 500 }}>
+        Loading…
+      </div>
+    )
+  }
 
   return (
-    <div style={{ padding: 16, display: 'grid', gap: 16 }}>
-      <h1>Family Graph</h1>
-      <label style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-        Focus ID:
-        <input value={focusId} onChange={e => setFocusId(e.target.value)} />
-      </label>
+    <div
+      style={{
+        padding: 16,
+        display: 'grid',
+        gap: 16,
+        justifyItems: 'center',
+        textAlign: 'center'
+      }}
+    >
+      <h1 style={{ margin: 0 }}>Family Graph</h1>
+      <p style={{ margin: 0, maxWidth: 520 }}>
+        Nathaniel Cook and Courtney Linkous
+      </p>
       <FamilyGraph data={data} />
-      <h2>Pedigree (3-gen)</h2>
-      <Pedigree data={data} focusId={focusId} />
     </div>
   )
 }
