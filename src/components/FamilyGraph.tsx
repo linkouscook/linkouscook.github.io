@@ -1,16 +1,20 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import { createChart, DetailedRenderer, RelativesChart } from 'topola'
-import type { ChartHandle } from 'topola'
+import { createChart, DetailedRenderer } from 'topola'
 
+import { InvertedRelativesChart } from '../lib/InvertedRelativesChart'
 import { getFocusPeople, personDisplayName, toTopolaData } from '../lib/topola'
 
 import type { GraphData } from '../lib/model'
+import type { ChartHandle } from 'topola'
 
 export function FamilyGraph({ data }: { data: GraphData }) {
   const svgRef = useRef<SVGSVGElement | null>(null)
   const chartRef = useRef<ChartHandle | null>(null)
-  const svgId = useMemo(() => `family-graph-${Math.random().toString(36).slice(2, 10)}`, [])
+  const svgId = useMemo(
+    () => `family-graph-${Math.random().toString(36).slice(2, 10)}`,
+    [],
+  )
   const topolaData = useMemo(() => toTopolaData(data), [data])
   const initialTopolaData = useRef(topolaData)
   const focusPeople = useMemo(() => getFocusPeople(data), [data])
@@ -18,7 +22,9 @@ export function FamilyGraph({ data }: { data: GraphData }) {
   const [startId, setStartId] = useState<string | null>(fallbackFocusId)
 
   useEffect(() => {
-    setStartId(current => (current === fallbackFocusId ? current : fallbackFocusId))
+    setStartId((current) =>
+      current === fallbackFocusId ? current : fallbackFocusId,
+    )
   }, [fallbackFocusId])
 
   useEffect(() => {
@@ -30,12 +36,12 @@ export function FamilyGraph({ data }: { data: GraphData }) {
     if (chartRef.current) return
     const chart = createChart({
       json: initialTopolaData.current,
-      chartType: RelativesChart,
+      chartType: InvertedRelativesChart,
       renderer: DetailedRenderer,
       svgSelector: `#${svgId}`,
       horizontal: true,
       expanders: true,
-      animate: true
+      animate: true,
     })
     chartRef.current = chart
     return () => {
@@ -62,15 +68,15 @@ export function FamilyGraph({ data }: { data: GraphData }) {
           display: 'flex',
           flexWrap: 'wrap',
           justifyContent: 'center',
-          gap: 8
+          gap: 8,
         }}
       >
-        {focusPeople.map(person => {
+        {focusPeople.map((person) => {
           const isActive = startId === person.id
           return (
             <button
               key={person.id}
-              type="button"
+              type='button'
               onClick={() => setStartId(person.id)}
               aria-pressed={isActive}
               style={{
@@ -81,7 +87,7 @@ export function FamilyGraph({ data }: { data: GraphData }) {
                 background: isActive ? '#dbeafe' : '#fff',
                 fontWeight: isActive ? 600 : 500,
                 fontSize: 14,
-                transition: 'all 120ms ease-in-out'
+                transition: 'all 120ms ease-in-out',
               }}
             >
               {personDisplayName(person)}
@@ -92,8 +98,8 @@ export function FamilyGraph({ data }: { data: GraphData }) {
       <svg
         id={svgId}
         ref={svgRef}
-        role="img"
-        aria-label="Topola family tree"
+        role='img'
+        aria-label='Topola family tree'
         style={{ width: '100%', minHeight: 520 }}
       />
     </div>
