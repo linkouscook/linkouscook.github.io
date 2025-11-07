@@ -1,35 +1,39 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-
 import { createChart, DetailedRenderer } from 'topola'
-
 import { InvertedRelativesChart } from '../lib/InvertedRelativesChart'
-import { getFocusPeople, personDisplayName, toTopolaData } from '../lib/topola'
 
-import type { GraphData } from '../lib/model'
-import type { ChartHandle } from 'topola'
+import type { ChartHandle, JsonGedcomData, JsonIndi } from 'topola'
 
-export function FamilyGraph({ data }: { data: GraphData }) {
+const indiDisplayName = (person: JsonIndi) => {
+  const first = person.firstName ?? ''
+  const last = person.lastName ?? person.maidenName ?? ''
+  const label = `${first} ${last}`.trim()
+  return label || person.id
+}
+
+export function FamilyGraph({ data }: { data: JsonGedcomData }) {
   const svgRef = useRef<SVGSVGElement | null>(null)
   const chartRef = useRef<ChartHandle | null>(null)
   const svgId = useMemo(
     () => `family-graph-${Math.random().toString(36).slice(2, 10)}`,
     [],
   )
-  const topolaData = useMemo(() => toTopolaData(data), [data])
-  const initialTopolaData = useRef(topolaData)
-  const focusPeople = useMemo(() => getFocusPeople(data), [data])
-  const fallbackFocusId = focusPeople[0]?.id ?? data.people[0]?.id ?? null
+  const focusPeople = useMemo(() => data.indis ?? [], [data])
+  const initialTopolaData = useRef(data)
+  const fallbackFocusId = focusPeople[0]?.id ?? data.indis?.[0]?.id ?? null
   const [startId, setStartId] = useState<string | null>(fallbackFocusId)
 
   useEffect(() => {
     setStartId((current) =>
-      current === fallbackFocusId ? current : fallbackFocusId,
+      current && focusPeople.some((person) => person.id === current)
+        ? current
+        : fallbackFocusId,
     )
-  }, [fallbackFocusId])
+  }, [fallbackFocusId, focusPeople])
 
   useEffect(() => {
-    initialTopolaData.current = topolaData
-  }, [topolaData])
+    initialTopolaData.current = data
+  }, [data])
 
   useEffect(() => {
     if (!svgRef.current) return
@@ -39,7 +43,7 @@ export function FamilyGraph({ data }: { data: GraphData }) {
       chartType: InvertedRelativesChart,
       renderer: DetailedRenderer,
       svgSelector: `#${svgId}`,
-      horizontal: true,
+      horizontal: false,
       expanders: true,
       animate: true,
     })
@@ -56,10 +60,11 @@ export function FamilyGraph({ data }: { data: GraphData }) {
 
   useEffect(() => {
     if (!chartRef.current) return
-    chartRef.current.setData(topolaData)
-    const start = startId ?? focusPeople[0]?.id ?? topolaData.indis[0]?.id
+    chartRef.current.setData(data)
+    const start =
+      startId ?? focusPeople[0]?.id ?? data.indis?.[0]?.id ?? undefined
     chartRef.current.render(start ? { startIndi: start } : {})
-  }, [topolaData, startId, focusPeople])
+  }, [data, startId, focusPeople])
 
   return (
     <div style={{ width: '100%', display: 'grid', gap: 12 }}>
@@ -90,7 +95,7 @@ export function FamilyGraph({ data }: { data: GraphData }) {
                 transition: 'all 120ms ease-in-out',
               }}
             >
-              {personDisplayName(person)}
+              {indiDisplayName(person)}
             </button>
           )
         })}

@@ -1,0 +1,64 @@
+0 HEAD
+1 SOUR CookLinkousTool
+2 VERS 1.0
+2 NAME Cook/Linkous GEDCOM Tool
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @S1@ SOUR
+1 TITL Testimony of Nathaniel (Nate) Cook
+1 AUTH Nathaniel Cook
+1 NOTE First-hand family information provided by Nathaniel (created 07 NOV 2025).
+0 @S2@ SOUR
+1 TITL Testimony of Courtney Jean Linkous
+1 AUTH Courtney Jean Linkous
+1 NOTE First-hand family information provided by Courtney (created 07 NOV 2025).
+0 @I2@ INDI
+1 NAME Courtney Jean /Linkous/
+1 SEX F
+1 BIRT
+2 DATE 03 JAN 1996
+2 PLAC Ft. Myers, Lee County, FL, USA
+2 SOUR @S1@
+2 SOUR @S2@
+1 FAMS @F1@
+
+0 @I1@ INDI
+1 NAME Nathaniel James /Cook/
+1 SEX M
+1 BIRT
+2 DATE 01 SEP 1994
+2 PLAC Ft. Myers, Lee County, FL, USA
+2 SOUR @S1@
+2 SOUR @S2@
+1 FAMS @F1@
+
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+
+0 @I3@ INDI
+1 NAME Courtney Jean /Linkous/
+1 SEX F
+1 BIRT
+2 DATE 03 JAN 1996
+2 PLAC Ft. Myers, Lee County, FL, USA
+2 SOUR @S1@
+2 SOUR @S2@
+1 FAMS @F2@
+
+0 @I4@ INDI
+1 NAME Nathaniel James /Cook/
+1 SEX M
+1 BIRT
+2 DATE 01 SEP 1994
+2 PLAC Ft. Myers, Lee County, FL, USA
+2 SOUR @S1@
+2 SOUR @S2@
+1 FAMS @F2@
+
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I3@
+0 TRLR
