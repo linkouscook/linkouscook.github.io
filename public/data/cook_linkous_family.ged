@@ -1,64 +1,1610 @@
 0 HEAD
-1 SOUR CookLinkousTool
-2 VERS 1.0
-2 NAME Cook/Linkous GEDCOM Tool
+1 SUBM @SUBM1@
+1 SOUR Ancestry.com Family Trees
+2 NAME Ancestry.com Member Trees
+2 VERS 2025.08
+2 _TREE Nathaniel Cook Family Tree
+3 RIN 176070486
+3 NOTE Nathaniel Cook Family Tree
+3 _ENV prd
+2 CORP Ancestry.com
+3 PHON 801-705-7000
+3 WWW www.ancestry.com
+3 ADDR 1300 West Traverse Parkway
+4 CONT Lehi, UT  84043
+4 CONT USA
+1 DATE 7 Nov 2025
+2 TIME 01:02:49
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
-0 @S1@ SOUR
-1 TITL Testimony of Nathaniel (Nate) Cook
-1 AUTH Nathaniel Cook
-1 NOTE First-hand family information provided by Nathaniel (created 07 NOV 2025).
-0 @S2@ SOUR
-1 TITL Testimony of Courtney Jean Linkous
-1 AUTH Courtney Jean Linkous
-1 NOTE First-hand family information provided by Courtney (created 07 NOV 2025).
-0 @I2@ INDI
-1 NAME Courtney Jean /Linkous/
-1 SEX F
-1 BIRT
-2 DATE 03 JAN 1996
-2 PLAC Ft. Myers, Lee County, FL, USA
-2 SOUR @S1@
-2 SOUR @S2@
-1 FAMS @F1@
-
-0 @I1@ INDI
-1 NAME Nathaniel James /Cook/
+0 @SUBM1@ SUBM
+1 NAME Ancestry.com Member Trees Submitter
+0 @I342291417537@ INDI
+1 NAME Nathaniel J /Cook/
+2 GIVN Nathaniel J
+2 SURN Cook
+2 SOUR @S1326781820@
+3 _APID 1,62209::187672480
 1 SEX M
+1 FAMC @F4@
 1 BIRT
-2 DATE 01 SEP 1994
-2 PLAC Ft. Myers, Lee County, FL, USA
-2 SOUR @S1@
-2 SOUR @S2@
+2 DATE 1 Sep 1994
+2 PLAC Fort Myers, Lee, Florida, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::187672480
+1 RESI
+2 DATE 2011-2017
+2 PLAC Fort Myers, Florida, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::187672480
+1 SOUR @S1326781820@
+2 _APID 1,62209::187672480
+1 OBJE @O7@
+2 _PRIM Y
+1 _MTTAG @T24@
+0 @I342291417538@ INDI
+1 NAME David Lewis /Cook/
+2 GIVN David Lewis
+2 SURN Cook
+2 SOUR @S1326781864@
+3 PAGE Birthdate: 21 Apr 1960; Birth County: Los Angeles
+3 _APID 1,5247::7564866
+2 SOUR @S1326781877@
+3 _APID 1,8837::3212643
+2 SOUR @S1299099809@
+3 _APID 1,62116::72930284
+1 SEX M
+1 FAMC @F3@
+1 FAMS @F4@
+1 BIRT
+2 DATE 21 Apr 1960
+2 PLAC Los Angeles, California
+2 SOUR @S1326781864@
+3 PAGE Birthdate: 21 Apr 1960; Birth County: Los Angeles
+3 _APID 1,5247::7564866
+1 RESI
+2 DATE 1995
+2 PLAC Fort Myers, Lee, Florida, USA
+1 SOUR @S1326781864@
+2 PAGE Birthdate: 21 Apr 1960; Birth County: Los Angeles
+2 _APID 1,5247::7564866
+1 SOUR @S1326781877@
+2 _APID 1,8837::3212643
+1 SOUR @S1299099809@
+2 _APID 1,62116::72930284
+1 _MTTAG @T24@
+0 @I342291417539@ INDI
+1 NAME Ralph Lewis /Cook/
+2 GIVN Ralph Lewis
+2 SURN Cook
+2 SOUR @S1326782139@
+3 _APID 1,1788::321118244
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Los Angeles, Los Angeles, California; Roll: m-t0627-00389; Page: 7B; Enumeration District: 60-1170
+3 _APID 1,2442::70623329
+2 SOUR @S1326782170@
+3 _APID 1,2469::1383022277
+2 SOUR @S1326782133@
+3 _APID 1,5186::1498668
+2 SOUR @S1326782119@
+3 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+3 _APID 1,7316::3426848
+2 SOUR @S1326782314@
+3 _APID 1,8781::157112733
+2 SOUR @S1326781820@
+3 _APID 1,62209::273378243
+2 SOUR @S1326782325@
+3 PAGE Statesman Journal; Publication Date: 18/ Sep/ 1930; Publication Place: Salem, Oregon, USA; URL: https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+3 DATA
+4 WWW https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+3 _APID 1,62945::30840063
+1 SEX M
+1 FAMC @F5@
+1 FAMS @F3@
+1 FAMS @F16@
+1 BIRT
+2 DATE 15 Sep 1930
+2 PLAC Silverton, Oregon, USA
+2 SOUR @S1326782139@
+3 _APID 1,1788::321118244
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Los Angeles, Los Angeles, California; Roll: m-t0627-00389; Page: 7B; Enumeration District: 60-1170
+3 _APID 1,2442::70623329
+2 SOUR @S1326782133@
+3 _APID 1,5186::1498668
+2 SOUR @S1326782119@
+3 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+3 _APID 1,7316::3426848
+2 SOUR @S1326781820@
+3 _APID 1,62209::273378243
+2 SOUR @S1326782325@
+3 PAGE Statesman Journal; Publication Date: 18/ Sep/ 1930; Publication Place: Salem, Oregon, USA; URL: https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+3 DATA
+4 WWW https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+3 _APID 1,62945::30840063
+1 RESI
+2 DATE 1935
+2 PLAC Los Angeles, Los Angeles, California
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Los Angeles, Los Angeles, California; Roll: m-t0627-00389; Page: 7B; Enumeration District: 60-1170
+3 _APID 1,2442::70623329
+1 RESI
+2 DATE 1940
+2 PLAC Los Angeles, Los Angeles, Los Angeles, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Los Angeles, Los Angeles, California; Roll: m-t0627-00389; Page: 7B; Enumeration District: 60-1170
+3 _APID 1,2442::70623329
+2 NOTE Marital Status: Single; Relation to Head of House: Son
+1 RESI
+2 DATE 1960
+2 PLAC Whittier, Los Angeles, California, USA
+2 SOUR @S1326782170@
+3 _APID 1,2469::1383022277
+1 RESI
+2 DATE 1985-1990
+2 PLAC Minneapolis, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273378243
+1 RESI
+2 DATE 1990-2013
+2 PLAC Wayzata, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273378243
+1 RESI
+2 DATE 1991
+2 PLAC Wayzata, MN
+2 SOUR @S1326782139@
+3 _APID 1,1788::321118244
+1 RESI
+2 DATE 2012-2020
+2 PLAC Champlin, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273378243
+1 RESI
+2 DATE Abt 2017
+2 PLAC Champlin, Hennepin, Minnesota, USA
+2 SOUR @S1326782119@
+3 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+3 _APID 1,7316::3426848
+2 NOTE Occupation: Engineer Manager; Marital Status: Married
+1 DEAT
+2 DATE 6 Feb 2017
+2 PLAC Coon Rapids, Anoka, Minnesota, USA
+2 SOUR @S1326782119@
+3 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+3 _APID 1,7316::3426848
+1 BURI
+2 PLAC Minneapolis, Hennepin, Minnesota, USA
+2 SOUR @S1326782119@
+3 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+3 _APID 1,7316::3426848
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 312472364417:1030:159764729
+1 SOUR @S1326782139@
+2 _APID 1,1788::321118244
+1 SOUR @S1326782123@
+2 PAGE Year: 1940; Census Place: Los Angeles, Los Angeles, California; Roll: m-t0627-00389; Page: 7B; Enumeration District: 60-1170
+2 _APID 1,2442::70623329
+1 SOUR @S1326782170@
+2 _APID 1,2469::1383022277
+1 SOUR @S1326782133@
+2 _APID 1,5186::1498668
+1 SOUR @S1326782119@
+2 PAGE Minnesota Department of Health; St Paul, Minnesota, USA; Minnesota, Death Index, 1908-2017
+2 _APID 1,7316::3426848
+1 SOUR @S1326782314@
+2 _APID 1,8781::157112733
+1 SOUR @S1326781820@
+2 _APID 1,62209::273378243
+1 SOUR @S1326782325@
+2 PAGE Statesman Journal; Publication Date: 18/ Sep/ 1930; Publication Place: Salem, Oregon, USA; URL: https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+2 DATA
+3 WWW https://www.newspapers.com/image/79710297/?article=25a1ffde-025b-4821-9d60-7ef40e4feecb&xid=5905&terms=Ralph_Lewis_Cook
+2 _APID 1,62945::30840063
+1 OBJE @O5@
+2 _PRIM Y
+1 OBJE @O2@
+1 _MTTAG @T24@
+0 @I342291417540@ INDI
+1 NAME Yvonne Margie /Ratzlaff/
+2 GIVN Yvonne Margie
+2 SURN Ratzlaff
+2 SOUR @S1299084913@
+3 PAGE Ancestry Family Tree
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1952
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::381028753
+3 _APID 1,1265::798014565
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1954
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::410268209
+3 _APID 1,1265::410268675
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007395
+2 SOUR @S1326782170@
+3 _APID 1,2469::1383022278
+2 SOUR @S1326782133@
+3 _APID 1,5186::21498668
+2 SOUR @S1326782225@
+3 PAGE Hollydale Press; Publication Date: 16 Oct 1947; Publication Place: South Gate, California, USA; URL: https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+3 DATA
+4 WWW https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+3 _APID 1,50029::5897015786
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/257951777/yvonne-margie-cook
+3 _APID 1,60525::230891237
+2 SOUR @S1326782239@
+3 PAGE California State Library; Sacramento, California; Great Register of Voters, 1900-1968
+3 _APID 1,61066::15451007
+2 SOUR @S1326782186@
+3 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 DATA
+4 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 _APID 1,61843::732509294
+2 SOUR @S1299099809@
+3 PAGE News-Press; Publication Date: 29/ May/ 1988; Publication Place: Fort Myers, Florida, USA; URL: https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 DATA
+4 WWW https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 _APID 1,62116::220662454
+2 SOUR @S1326781820@
+3 _APID 1,62209::273428271
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903343
+1 SEX F
+1 FAMC @F2@
+1 FAMS @F3@
+1 FAMS @F12@
+1 BIRT
+2 DATE 22 November 1936
+2 PLAC Los Angeles County, California, United States of America
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1952
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::381028753
+3 _APID 1,1265::798014565
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1954
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::410268209
+3 _APID 1,1265::410268675
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007395
+2 SOUR @S1326782133@
+3 _APID 1,5186::21498668
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/257951777/yvonne-margie-cook
+3 _APID 1,60525::230891237
+2 SOUR @S1326781820@
+3 _APID 1,62209::273428271
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903343
+1 RESI
+2 DATE 1940
+2 PLAC Compton Jud Twp, Compton, Los Angeles, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007395
+2 NOTE Marital Status: Single; Relation to Head of House: Daughter
+1 RESI
+2 DATE 16 Oct 1947
+2 PLAC South Gate, California, USA
+2 SOUR @S1326782225@
+3 PAGE Hollydale Press; Publication Date: 16 Oct 1947; Publication Place: South Gate, California, USA; URL: https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+3 DATA
+4 WWW https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+3 _APID 1,50029::5897015786
+1 RESI
+2 DATE 1950
+2 PLAC South Los Angeles, Los Angeles, California, USA
+2 SOUR @S1326782239@
+3 PAGE California State Library; Sacramento, California; Great Register of Voters, 1900-1968
+3 _APID 1,61066::15451007
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903343
+2 NOTE Relation to Head of House: Daughter; Marital Status: Never Married
+1 RESI
+2 DATE 1952
+2 PLAC Lynwood, California, USA
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1952
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::381028753
+3 _APID 1,1265::798014565
+1 RESI
+2 DATE 1954
+2 PLAC Lynwood, California, USA
+2 SOUR @S1326782233@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1954
+3 DATA
+4 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+3 _APID 1,1265::410268209
+3 _APID 1,1265::410268675
+1 RESI
+2 DATE 1960
+2 PLAC Whittier, Los Angeles, California, USA
+2 SOUR @S1326782170@
+3 _APID 1,2469::1383022278
+1 RESI
+2 DATE 1985-1991
+2 PLAC Minneapolis, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273428271
+1 RESI
+2 DATE 1990-2013
+2 PLAC Wayzata, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273428271
+1 RESI
+2 DATE 2012-2020
+2 PLAC Champlin, Minnesota, USA
+2 SOUR @S1326781820@
+3 _APID 1,62209::273428271
+1 DEAT
+2 DATE 12 Aug 2023
+2 PLAC Champlin, Hennepin, Minnesota, USA
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/257951777/yvonne-margie-cook
+3 _APID 1,60525::230891237
+1 BURI
+2 PLAC Minneapolis, Hennepin County, Minnesota, United States of America
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/257951777/yvonne-margie-cook
+3 _APID 1,60525::230891237
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 30264869641:1030:72891760
+1 SOUR @S1326782233@
+2 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1952
+2 DATA
+3 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+2 _APID 1,1265::381028753
+2 _APID 1,1265::798014565
+1 SOUR @S1326782233@
+2 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Lynwood High School; Year: 1954
+2 DATA
+3 WWW https://www.classmates.com/yearbooks/?page=1&s=81166&utm_source=ancestry&utm_medium=unpaid&utm_campaign=partnerships&utm_term=yearbook&utm_content=81166
+2 _APID 1,1265::410268209
+2 _APID 1,1265::410268675
+1 SOUR @S1326782123@
+2 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+2 _APID 1,2442::70007395
+1 SOUR @S1326782170@
+2 _APID 1,2469::1383022278
+1 SOUR @S1326782133@
+2 _APID 1,5186::21498668
+1 SOUR @S1326782225@
+2 PAGE Hollydale Press; Publication Date: 16 Oct 1947; Publication Place: South Gate, California, USA; URL: https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+2 DATA
+3 WWW https://www.newspapers.com/image/834499035/?article=d1e51d98-390b-11ed-a9e5-2ea6576bd0c7&xid=4535
+2 _APID 1,50029::5897015786
+1 SOUR @S1326782163@
+2 DATA
+3 WWW https://www.findagrave.com/memorial/257951777/yvonne-margie-cook
+2 _APID 1,60525::230891237
+1 SOUR @S1326782239@
+2 PAGE California State Library; Sacramento, California; Great Register of Voters, 1900-1968
+2 _APID 1,61066::15451007
+1 SOUR @S1326782186@
+2 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 DATA
+3 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 _APID 1,61843::732509294
+1 SOUR @S1299099809@
+2 PAGE News-Press; Publication Date: 29/ May/ 1988; Publication Place: Fort Myers, Florida, USA; URL: https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+2 DATA
+3 WWW https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+2 _APID 1,62116::220662454
+1 SOUR @S1326781820@
+2 _APID 1,62209::273428271
+1 SOUR @S1326782175@
+2 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+2 _APID 1,62308::266903343
+1 OBJE @O8@
+2 _PRIM Y
+2 _CROP
+3 _LEFT 116
+3 _TOP 5
+3 _WDTH 462
+3 _HGHT 462
+3 _TYPE primary
+1 OBJE @O9@
+2 _CROP
+3 _LEFT 0
+3 _TOP 0
+3 _WDTH 2228
+3 _HGHT 1467
+3 _TYPE primary
+1 OBJE @O10@
+2 _CROP
+3 _LEFT 22
+3 _TOP 353
+3 _WDTH 1676
+3 _HGHT 2647
+3 _TYPE primary
+1 OBJE @O12@
+2 _CROP
+3 _LEFT 18
+3 _TOP 508
+3 _WDTH 2179
+3 _HGHT 2052
+3 _TYPE primary
+1 OBJE @O6@
+1 _MTTAG @T24@
+0 @I342486944726@ INDI
+1 NAME Ray Elmer /Cook/ Sr
+2 GIVN Ray Elmer
+2 SURN Cook
+2 NSFX Sr
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F5@
+1 BIRT
+2 DATE 8 Aug 1904
+2 PLAC Quapaw, Oklahoma
+1 DEAT
+2 DATE 29 JAN 1966
+2 PLAC Los Angeles County, California, United States of America
+1 OBJE @O13@
+2 _PRIM Y
+0 @I342486944738@ INDI
+1 NAME Agnes J. /Michel/
+2 GIVN Agnes J.
+2 SURN Michel
+2 SOUR @S1299084913@
+3 PAGE Ancestry Family Tree
+1 SEX F
+1 FAMS @F5@
+1 FAMS @F13@
+1 BIRT
+2 DATE 21 April 1906
+2 PLAC Michigan, United States of America
+1 DEAT
+2 DATE 24 April 1962
+2 PLAC Ventura County, California, United States of America
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 312472364809:1030:159764729
+0 @I342486944788@ INDI
+1 NAME Joseph "Ed" Edward  /Cook/
+2 GIVN Joseph "Ed" Edward 
+2 SURN Cook
+1 SEX M
+1 FAMC @F1@
+1 FAMS @F6@
+1 BIRT
+2 DATE 04 Mar 1879
+2 PLAC Macon City, Missouri, USA
+1 DEAT
+2 DATE 11 Oct 1954
+2 PLAC Silverton, Marion, Oregon, USA
+1 _MTTAG @T23@
+0 @I342486944808@ INDI
+1 NAME Nancy "Nannie" Elender /Huff/
+2 GIVN Nancy "Nannie" Elender
+2 SURN Huff
+1 SEX F
+1 FAMS @F6@
+1 BIRT
+2 DATE 12 FEB 1884
+2 PLAC Long Lane, Dallas Co., Missouri
+1 DEAT
+2 DATE 23 OCT 1950
+2 PLAC Silverton, Marion Co., Oregon
+1 OBJE @O14@
+2 _PRIM Y
+0 @I342486944846@ INDI
+1 NAME Joseph Shull "Dutch" /Cook/
+2 GIVN Joseph Shull "Dutch"
+2 SURN Cook
+1 SEX M
+1 FAMC @F7@
 1 FAMS @F1@
-
+1 BIRT
+2 DATE 1 Jan 1840
+2 PLAC Louiseville, Russell, Kentucky, USA
+1 DEAT
+2 DATE 13 FEB 1895
+2 PLAC Windyville, Macon, Missouri, USA
+0 @I342486944861@ INDI
+1 NAME Elizabeth Jane /Freeman/
+2 GIVN Elizabeth Jane
+2 SURN Freeman
+1 SEX F
+1 FAMS @F1@
+1 BIRT
+2 DATE 14 Jun 1842
+2 PLAC Macon, Macon, Missouri, USA
+1 DEAT
+2 DATE 3 Apr 1920
+2 PLAC Quapaw, Ottawa, Oklahoma, USA
+0 @I342486944932@ INDI
+1 NAME Daniel David /Cook/
+2 GIVN Daniel David
+2 SURN Cook
+1 SEX M
+1 FAMC @F15@
+1 FAMS @F7@
+1 BIRT
+2 DATE 1808
+2 PLAC , Adair, Kentucky, United States
+1 DEAT
+2 DATE 1860
+2 PLAC , Russell, Kentucky, United States
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 330016616762:1030:102541745
+1 OBJE @O3@
+2 _PRIM Y
+0 @I342486945040@ INDI
+1 NAME Elizabeth Ann /McKinley/
+2 GIVN Elizabeth Ann
+2 SURN McKinley
+1 SEX F
+1 FAMS @F8@
+1 FAMS @F7@
+1 BIRT
+2 DATE 1810
+2 PLAC Adair County, KY
+1 DEAT
+2 DATE 1841
+2 PLAC Russell County, KY
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 330016616716:1030:102541745
+0 @I342486945167@ INDI
+1 NAME Shelton /Ballew/
+2 GIVN Shelton
+2 SURN Ballew
+1 SEX M
+1 FAMS @F8@
+1 BIRT
+2 DATE Abt. 1795
+2 PLAC PA
+1 DEAT
+2 DATE Bef. 1833
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 330016616763:1030:102541745
+0 @I342486945223@ INDI
+1 NAME John Edward /Cook/ Sr
+2 GIVN John Edward
+2 SURN Cook
+2 NSFX Sr
+2 SOUR @S1299085687@
+3 DATA
+4 WWW https://gw.geneanet.org/dhalloran?n=cook&oc=1&p=john+edward
+3 _APID 1,62476::5168241331
+1 SEX M
+1 FAMC @F9@
+1 FAMS @F10@
+1 FAMS @F15@
+1 BIRT
+2 DATE 6 August 1762
+2 PLAC Wedell, Schleswig-Holstein, Prussia
+1 DEAT
+2 DATE 1860
+2 PLAC Monticello, Russell, Kentucky, United States
+1 SOUR @S1299085687@
+2 DATA
+3 WWW https://gw.geneanet.org/dhalloran?n=cook&oc=1&p=john+edward
+2 _APID 1,62476::5168241331
+1 OBJE @O1@
+2 _PRIM Y
+0 @I342486947275@ INDI
+1 NAME Mary Polly /Green/
+2 GIVN Mary Polly
+2 SURN Green
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241504
+1 SEX F
+1 FAMS @F10@
+1 BIRT
+2 DATE 1772
+2 PLAC Halifax, North Carolina, USA
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241504
+1 DEAT
+2 DATE 1836
+2 PLAC Monticello, Wayne, Kentucky, USA
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241504
+1 SOUR @S1299085687@
+2 _APID 1,62476::5168241504
+0 @I342486947276@ INDI
+1 NAME Margaretha Catherina /Inzelmann/
+2 GIVN Margaretha Catherina
+2 SURN Inzelmann
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241559
+1 SEX F
+1 FAMS @F9@
+1 BIRT
+2 DATE 2 February 1731
+2 PLAC Schleswig-Holstein, Schleswig Holstein, Allemagne
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241559
+1 DEAT
+2 DATE 12 October 1795
+2 PLAC Orange, North Carolina, USA
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241559
+1 SOUR @S1299085687@
+2 _APID 1,62476::5168241559
+0 @I342486947277@ INDI
+1 NAME Christopher /Cook/
+2 GIVN Christopher
+2 SURN Cook
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241329
+1 SEX M
+1 FAMC @F14@
+1 FAMS @F9@
+1 BIRT
+2 DATE 1727
+2 PLAC Germany, Allemagne
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241329
+1 DEAT
+2 DATE 1771
+2 PLAC Orange, North Carolina, USA
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241329
+1 SOUR @S1299085687@
+2 _APID 1,62476::5168241329
+0 @I342486948058@ INDI
+1 NAME Martin Cook /Koch/
+2 GIVN Martin Cook
+2 SURN Koch
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241578
+1 SEX M
+1 FAMS @F14@
+1 BIRT
+2 DATE 1711
+2 PLAC Germany, Allemagne
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241578
+1 DEAT
+2 PLAC Pennsylvania, Somerset, Pennsylvania, USA
+2 SOUR @S1299085687@
+3 _APID 1,62476::5168241578
+1 SOUR @S1299085687@
+2 _APID 1,62476::5168241578
+0 @I342486956770@ INDI
+1 NAME Stacy Lynn /Strey/
+2 GIVN Stacy Lynn
+2 SURN Strey
+2 SOUR @S1326781877@
+3 _APID 1,8837::8212643
+1 SEX F
+1 FAMS @F4@
+1 BIRT
+2 DATE 1967
+1 RESI
+2 DATE Abt 1988
+2 PLAC Fort Myers
+2 SOUR @S1299099809@
+3 PAGE News-Press; Publication Date: 29/ May/ 1988; Publication Place: Fort Myers, Florida, USA; URL: https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 DATA
+4 WWW https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 _APID 1,62116::13211853
+1 SOUR @S1326781877@
+2 _APID 1,8837::8212643
+1 SOUR @S1299099809@
+2 PAGE News-Press; Publication Date: 29/ May/ 1988; Publication Place: Fort Myers, Florida, USA; URL: https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+2 DATA
+3 WWW https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+2 _APID 1,62116::13211853
+1 _MTTAG @T24@
+0 @I342709133219@ INDI
+1 NAME David Harry /Ratzlaff/
+2 GIVN David Harry
+2 SURN Ratzlaff
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007388
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635128/david-harry-ratzlaff
+3 _APID 1,60525::132749019
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903340
+1 SEX M
+1 FAMC @F11@
+1 FAMS @F2@
+1 BIRT
+2 DATE 16 Feb 1903
+2 PLAC Azusa, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007388
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635128/david-harry-ratzlaff
+3 _APID 1,60525::132749019
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903340
+1 RESI
+2 DATE 1935
+2 PLAC Lynwood, Los Angeles, California
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007388
+1 RESI
+2 DATE 1940
+2 PLAC Compton Jud Twp, Compton, Los Angeles, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007388
+2 NOTE Occupation: Stock Clerk; Marital Status: Married; Relation to Head of House: Head
+1 RESI
+2 DATE 1950
+2 PLAC South Los Angeles, Los Angeles, California, USA
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903340
+2 NOTE Occupation: Purchasing Agent Parts Mgr; Relation to Head of House: Head; Marital Status: Married
+1 DEAT
+2 DATE 10 NOV 1972
+2 PLAC Lynwood, Los Angeles Co, California
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635128/david-harry-ratzlaff
+3 _APID 1,60525::132749019
+1 BURI
+2 PLAC Whittier, Los Angeles County, California, United States of America
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635128/david-harry-ratzlaff
+3 _APID 1,60525::132749019
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 30264778288:1030:72891760
+1 SOUR @S1326782123@
+2 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+2 _APID 1,2442::70007388
+1 SOUR @S1326782163@
+2 DATA
+3 WWW https://www.findagrave.com/memorial/162635128/david-harry-ratzlaff
+2 _APID 1,60525::132749019
+1 SOUR @S1326782175@
+2 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+2 _APID 1,62308::266903340
+1 OBJE @O4@
+2 _PRIM Y
+0 @I342709133239@ INDI
+1 NAME Gracia Lucille /Smith/
+2 GIVN Gracia Lucille
+2 SURN Smith
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007391
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635152/gracia-lucile-ratzlaff
+3 _APID 1,60525::132748980
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903341
+1 SEX F
+1 FAMS @F2@
+1 BIRT
+2 DATE 2 Jun 1911
+2 PLAC Kirkland, Childress, Texas, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007391
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635152/gracia-lucile-ratzlaff
+3 _APID 1,60525::132748980
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903341
+1 RESI
+2 DATE 1935
+2 PLAC Lynwood, Los Angeles, California
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007391
+1 RESI
+2 DATE 1940
+2 PLAC Compton Jud Twp, Compton, Los Angeles, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007391
+2 NOTE Marital Status: Married; Relation to Head of House: Wife
+1 RESI
+2 DATE 1950
+2 PLAC South Los Angeles, Los Angeles, California, USA
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903341
+2 NOTE Relation to Head of House: Wife; Marital Status: Married
+1 DEAT
+2 DATE 31 Jul 1973
+2 PLAC Hacienda Heights, Los Angeles, California, USA
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635152/gracia-lucile-ratzlaff
+3 _APID 1,60525::132748980
+1 BURI
+2 PLAC Whittier, Los Angeles County, California, United States of America
+2 SOUR @S1326782163@
+3 DATA
+4 WWW https://www.findagrave.com/memorial/162635152/gracia-lucile-ratzlaff
+3 _APID 1,60525::132748980
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 30263947628:1030:72891760
+1 SOUR @S1326782123@
+2 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+2 _APID 1,2442::70007391
+1 SOUR @S1326782163@
+2 DATA
+3 WWW https://www.findagrave.com/memorial/162635152/gracia-lucile-ratzlaff
+2 _APID 1,60525::132748980
+1 SOUR @S1326782175@
+2 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+2 _APID 1,62308::266903341
+1 OBJE @O11@
+2 _PRIM Y
+0 @I342709134545@ INDI
+1 NAME Richard /Ratzloff/
+2 GIVN Richard
+2 SURN Ratzloff
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007393
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903342
+1 SEX M
+1 FAMC @F2@
+1 BIRT
+2 DATE abt 1935
+2 PLAC California
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007393
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903342
+1 RESI
+2 DATE 1935
+2 PLAC Lynwood, Los Angeles, California
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007393
+1 RESI
+2 DATE 1940
+2 PLAC Compton Jud Twp, Compton, Los Angeles, California, USA
+2 SOUR @S1326782123@
+3 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+3 _APID 1,2442::70007393
+2 NOTE Marital Status: Single; Relation to Head of House: Son
+1 RESI
+2 DATE 1950
+2 PLAC South Los Angeles, Los Angeles, California, USA
+2 SOUR @S1326782175@
+3 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+3 _APID 1,62308::266903342
+2 NOTE Relation to Head of House: Son; Marital Status: Never Married
+1 SOUR @S1326782123@
+2 PAGE Year: 1940; Census Place: Compton, Los Angeles, California; Roll: m-t0627-00224; Page: 1B; Enumeration District: 19-108
+2 _APID 1,2442::70007393
+1 SOUR @S1326782175@
+2 PAGE National Archives at Washington, DC; Washington, D.C.; Seventeenth Census of the United States, 1950; Year: 1950; Census Place: South Los Angeles, Los Angeles, California; Roll: 5516; Page: 3; Enumeration District: 19-358
+2 _APID 1,62308::266903342
+0 @I342709134951@ INDI
+1 NAME Dan //
+2 GIVN Dan
+2 SOUR @S1326782186@
+3 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 DATA
+4 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 _APID 1,61843::733049977
+1 SEX M
+1 FAMC @F12@
+1 SOUR @S1326782186@
+2 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 DATA
+3 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 _APID 1,61843::733049977
+0 @I342709134952@ INDI
+1 NAME Diana //
+2 GIVN Diana
+2 SOUR @S1326782186@
+3 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 DATA
+4 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 _APID 1,61843::733240324
+1 SEX F
+1 FAMC @F12@
+1 SOUR @S1326782186@
+2 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 DATA
+3 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 _APID 1,61843::733240324
+0 @I342709134953@ INDI
+1 NAME Christy //
+2 GIVN Christy
+2 SOUR @S1326782186@
+3 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 DATA
+4 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+3 _APID 1,61843::733365670
+1 SEX F
+1 FAMC @F12@
+1 SOUR @S1326782186@
+2 PAGE Star Tribune; Publication Date: 8 Feb 2017; Publication Place: Minneapolis, Minnesota, USA; URL: https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 DATA
+3 WWW https://www.newspapers.com/image/271348841/?article=264e5c9b-e365-4d7f-b4a3-0e10f7d9d1ab&focus=0.5002751,0.47559425,0.65461874,0.65143436&xid=3355
+2 _APID 1,61843::733365670
+0 @I342709138252@ INDI
+1 NAME Ray Edward /Cook/ Jr.
+2 GIVN Ray Edward
+2 SURN Cook
+2 NSFX Jr.
+1 SEX M
+1 FAMC @F13@
+1 BIRT
+2 DATE 15 Sep 1930
+2 PLAC Silverton, Marion, Oregon, USA
+1 DEAT
+2 DATE 4 May 2021
+2 PLAC Westlake Village, CA 91362
+1 SOUR @S1299084913@
+2 PAGE Ancestry Family Tree
+2 _APID 312472364812:1030:159764729
+0 @I342709138333@ INDI
+1 NAME Brenda Lois /Cook/
+2 GIVN Brenda Lois
+2 SURN Cook
+2 SOUR @S1326782314@
+3 _APID 1,8781::7112733
+1 SEX F
+1 FAMC @F16@
+1 BIRT
+2 DATE 4 Jun 1957
+2 PLAC Dallas, Texas, USA
+2 SOUR @S1326782314@
+3 _APID 1,8781::7112733
+1 SOUR @S1326782314@
+2 _APID 1,8781::7112733
+0 @I342709138704@ INDI
+1 NAME Elizabeth /Hiebert/
+2 GIVN Elizabeth
+2 SURN Hiebert
+1 SEX F
+1 FAMS @F11@
+1 BIRT
+2 DATE 18 May 1873
+2 PLAC Prussia
+1 DEAT
+2 DATE 21 Sep 1946
+2 PLAC Los Angeles County, California, USA
 0 @F1@ FAM
-1 HUSB @I1@
-1 WIFE @I2@
-
-0 @I3@ INDI
-1 NAME Courtney Jean /Linkous/
-1 SEX F
-1 BIRT
-2 DATE 03 JAN 1996
-2 PLAC Ft. Myers, Lee County, FL, USA
-2 SOUR @S1@
-2 SOUR @S2@
-1 FAMS @F2@
-
-0 @I4@ INDI
-1 NAME Nathaniel James /Cook/
-1 SEX M
-1 BIRT
-2 DATE 01 SEP 1994
-2 PLAC Ft. Myers, Lee County, FL, USA
-2 SOUR @S1@
-2 SOUR @S2@
-1 FAMS @F2@
-
+1 HUSB @I342486944846@
+1 WIFE @I342486944861@
+1 CHIL @I342486944788@
 0 @F2@ FAM
-1 HUSB @I4@
-1 WIFE @I3@
+1 HUSB @I342709133219@
+1 WIFE @I342709133239@
+1 CHIL @I342709134545@
+1 CHIL @I342291417540@
+1 MARR
+2 DATE 06 NOV 1929
+0 @F3@ FAM
+1 HUSB @I342291417539@
+1 WIFE @I342291417540@
+1 CHIL @I342291417538@
+1 MARR
+2 DATE 11 Oct 1958
+2 PLAC Los Angeles, California, USA
+2 SOUR @S1326782133@
+3 _HPID 1,5186::1498668
+3 _WPID 1,5186::21498668
+0 @F4@ FAM
+1 HUSB @I342291417538@
+1 WIFE @I342486956770@
+1 CHIL @I342291417537@
+1 MARR
+2 DATE 13 Aug 1988
+2 PLAC Sanibel, Florida, USA
+2 SOUR @S1299099809@
+3 PAGE News-Press; Publication Date: 29/ May/ 1988; Publication Place: Fort Myers, Florida, USA; URL: https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 DATA
+4 WWW https://www.newspapers.com/image/216013163/?article=956d16a2-08e3-41e0-9e9e-6a97cecf0c52&focus=0.49326357,0.6415346,0.6475952,0.70913&xid=3398
+3 _WPID 1,62116::13211853
+2 SOUR @S1299099809@
+3 _HPID 1,62116::72930284
+1 DIV
+2 DATE 27 Feb 1996
+2 PLAC Lee, Florida, USA
+2 SOUR @S1326781877@
+3 _HPID 1,8837::3212643
+3 _WPID 1,8837::8212643
+0 @F5@ FAM
+1 HUSB @I342486944726@
+1 WIFE @I342486944738@
+1 CHIL @I342291417539@
+0 @F6@ FAM
+1 HUSB @I342486944788@
+1 WIFE @I342486944808@
+1 CHIL @I342486944726@
+0 @F7@ FAM
+1 HUSB @I342486944932@
+1 WIFE @I342486945040@
+1 CHIL @I342486944846@
+1 MARR
+2 DATE 23 Jul 1833
+2 PLAC Russell County, KY
+0 @F8@ FAM
+1 HUSB @I342486945167@
+1 WIFE @I342486945040@
+1 MARR
+2 DATE 04 Jan 1819
+2 PLAC Wayne County, Ky.
+0 @F9@ FAM
+1 HUSB @I342486947277@
+1 WIFE @I342486947276@
+1 CHIL @I342486945223@
+1 MARR
+2 DATE 19 June 1753
+2 PLAC Germany, Allemagne
+2 SOUR @S1299085687@
+3 _HPID 1,62476::5168241329
+3 _WPID 1,62476::5168241559
+0 @F10@ FAM
+1 HUSB @I342486945223@
+1 WIFE @I342486947275@
+1 MARR
+2 DATE 1795
+2 PLAC Franklin, North Carolina, USA
+2 SOUR @S1299085687@
+3 DATA
+4 WWW https://gw.geneanet.org/dhalloran?n=cook&oc=1&p=john+edward
+3 _HPID 1,62476::5168241331
+2 SOUR @S1299085687@
+3 _WPID 1,62476::5168241504
+0 @F11@ FAM
+1 WIFE @I342709138704@
+1 CHIL @I342709133219@
+0 @F12@ FAM
+1 WIFE @I342291417540@
+1 CHIL @I342709134951@
+1 CHIL @I342709134952@
+1 CHIL @I342709134953@
+0 @F13@ FAM
+1 WIFE @I342486944738@
+1 CHIL @I342709138252@
+0 @F14@ FAM
+1 HUSB @I342486948058@
+1 CHIL @I342486947277@
+0 @F15@ FAM
+1 HUSB @I342486945223@
+1 CHIL @I342486944932@
+0 @F16@ FAM
+1 HUSB @I342291417539@
+1 CHIL @I342709138333@
+0 @O1@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 9367
+3 _WDTH 128
+3 _HGHT 160
+2 TITL Immigrant Emblem
+1 _OID 09f1bc3d-fb9d-47a3-8f76-0834f317b879
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2023-05-24 22:50:58.755
+1 _USER T8yqgsWTWrSg8llXMgwkmSHzP8TMpobSgmVkOAVyY6MUk4lbUNvE0MsewprrZZt+zVvfmcsyl79UpNdJC0IPhA==
+2 _ENCR 1
+1 _CLON
+2 _TID 62519694
+2 _PID 38088186501
+2 _OID 5a01e336-a7ef-466a-add4-27579454e567
+2 _USER 5cmBU6GSUOceNK86dImwJCMD0swMT6t/7lpKDxskAtAmr8qYx1QPrpxkJHRC4bQ5ui9ZjzHOXVi2zQUfB2d9Sw==
+3 _ENCR 1
+2 _DATE 2014-01-22 18:59:00.000
+1 _ORIG u
+1 _MSER
+2 _LKID 5a01e336-a7ef-466a-add4-27579454e567
+1 _ATL N
+0 @O2@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE document
+3 _STYPE jpeg
+3 _SIZE 55103
+3 _WDTH 400
+3 _HGHT 400
+2 TITL Obituary for Ralph L. Cook
+1 _OID 1ce89d38-adfe-4164-b1d1-971e8d6d7913
+1 DATE 8 Feb 2017
+1 PLAC Minneapolis, Minnesota
+1 _CREA 2025-10-20 23:25:27.927
+1 _USER wzc3p2gi5hEnAkiTcVQ2HiGSoFtdlIOh5d+hXZjwefDOQxxwkT206rl/4ZN7W0s4SFnk59qQbpHDTGauS5wNuQ==
+2 _ENCR 1
+1 _CLON
+2 _TID 159764729
+2 _PID 312472364417
+2 _OID 5d619adb-2b4a-4d21-b741-a6abf826ca30
+2 _USER RHELrLtIpYuTGAPyqFWwRdBztB6RPWCOhRnd4hlkJFqDU9GZ0ABbI0ArnqMTPgKwieDIfKXqDXEFCjZKubW50g==
+3 _ENCR 1
+2 _DATE 2023-04-08 03:10:01.103
+1 _ORIG newspapers
+2 _URL https://www.newspapers.com/clip/122484165/obituary-for-ralph-l-cook/?xid=865
+1 _MSER
+2 _LKID 5d619adb-2b4a-4d21-b741-a6abf826ca30
+1 _ATL N
+0 @O3@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE document
+3 _STYPE jpeg
+3 _SIZE 2672889
+3 _WDTH 4608
+3 _HGHT 3456
+2 TITL Russell Co. marriage rec cook
+1 _OID 5b4d35fa-2700-4664-a137-cfa8d733158b
+1 DATE 2011
+1 _DSCR Marriage Record for Daniel Cook and Ann McFarland
+1 _META <metadataxml><cemetery /><transcription>Cook, Daniel and Ann McFarland, August 10, 1843 by Enoch Yantis, J.P.  b.s. by Samuel Cook and J. McFall and G. C. Cook, Aug. 10, 1843.</transcription></metadataxml>
+1 _CREA 2023-05-24 22:47:41.019
+1 _USER NzuljfpR9mno+8Mzq11JscEKlZAQ98wYHY+cxf7SvtLdPKkJIeIv26vH9QDjVT1NrVNG1yyHRI5ZT1ZkOHzH5g==
+2 _ENCR 1
+1 _CLON
+2 _TID 63539693
+2 _PID 36110061575
+2 _OID 0c28c3e6-43b4-4fa9-a19e-554955e3ae12
+2 _USER l/LMVmUGJikHWlCM8fmCKx/gX+BxwN/KhCffomZPnOi4eT98GxF2TtyALbmW8W+tHsdSIMEDvrTHjavQ+PbU2Q==
+3 _ENCR 1
+2 _DATE 2015-06-04 18:03:47.000
+1 _ORIG u
+1 _MSER
+2 _LKID 0c28c3e6-43b4-4fa9-a19e-554955e3ae12
+1 _ATL N
+0 @O4@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE png
+3 _SIZE 5920
+3 _WDTH 160
+3 _HGHT 160
+2 TITL grampa_ratzlaff
+1 _OID 5b9db933-4bcc-4ea2-9168-9b0081b6b53c
+1 _DSCR Grampa Ratzlaff
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2025-10-20 23:14:46.302
+1 _USER p5zT00TYdawB9/bNsBug3ZLGNc8bX5Ms7rJUofLyLkiWqDXKxInOqRPvE05Mj/377zqZntThuvLNcmDlKH+98A==
+2 _ENCR 1
+1 _CLON
+2 _TID 72891760
+2 _PID 30264778288
+2 _OID e54c3a33-9841-40f7-a683-bbefd3050b11
+2 _USER d1Xl3i7goptI8ngcS2z8uhR22UgiBzBLkTrjfiJdn0Cd3YV8RWR56UTJCMJFyxRjgArRrTSdQy+pHEuZDm3iKA==
+3 _ENCR 1
+2 _DATE 2014-09-17 11:24:16.000
+1 _ORIG u
+1 _MSER
+2 _LKID e54c3a33-9841-40f7-a683-bbefd3050b11
+1 _ATL N
+0 @O5@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 8507
+3 _WDTH 151
+3 _HGHT 151
+2 TITL dad
+1 _OID 6b891735-3a61-45dd-a7db-1ba6b9a5a79b
+1 _DSCR Dad
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2025-10-20 23:25:17.266
+1 _USER DYlejB8QIgz49sgNlrxGTxW44km+fSDF8T3lXX6WIyNxg6cI0SA2eYSdtHd7ekFH7WRkoaUp0hAKvFyVgGqWxg==
+2 _ENCR 1
+1 _CLON
+2 _TID 72891760
+2 _PID 30264869770
+2 _OID 97940e6a-aafa-4b64-b069-8076a44bb1a0
+2 _USER gow1lCMv0mPBTTFLIcEkoEhChFAqXchk5TGT7mP++PB/uHG7eRBeoX1GdDOsO1YEhfL1P7CK+tC4JDSwsVqO/A==
+3 _ENCR 1
+2 _DATE 2014-09-17 11:47:19.050
+1 _ORIG u
+1 _MSER
+2 _LKID 97940e6a-aafa-4b64-b069-8076a44bb1a0
+1 _ATL N
+0 @O6@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 7691
+3 _WDTH 147
+3 _HGHT 147
+2 TITL mom
+1 _OID 74977692-0eb2-46bb-8d87-f886e21e5343
+1 _DSCR Mom
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2025-10-20 23:29:37.495
+1 _USER 6Nw+/rZqYrvi1BTFSgIVvI3zPfnp5i+qXfYdUCeaWtDG8bcVsD3LI1hzPwa0tns4Vsib6wFMu4lxzKMSRUOqKA==
+2 _ENCR 1
+1 _CLON
+2 _TID 72891760
+2 _PID 30264869641
+2 _OID eaba24c0-ca6b-4ff1-9358-25e494f04ac0
+2 _USER 3GROO0CzPQvY5uF/U7D6WTVcd0h03HjPjaH+oY7JoohDsxCOImVK5+fY+mnJ+NHFtRnv6XtywFbIATQdVICihA==
+3 _ENCR 1
+2 _DATE 2014-09-17 11:48:07.647
+1 _ORIG u
+1 _MSER
+2 _LKID eaba24c0-ca6b-4ff1-9358-25e494f04ac0
+1 _ATL N
+0 @O7@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE jpeg
+3 _SIZE 169337
+3 _WDTH 1077
+3 _HGHT 1077
+2 TITL square avi
+1 _OID 8bee814e-78f6-4909-a945-2c2ae9a446a4
+1 _CREA 2025-10-20 23:03:15.012
+1 _USER 40meL/6b037AxEP/zvJLyUgccXZmmm0BVtR7shlvhXcTzpmtWkjoZ1Ye9tC2o/BEx9I6PQzLjDJMiF3Cy8OWsA==
+2 _ENCR 1
+1 _ORIG acom
+1 _ATL Y
+0 @O8@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 124843
+3 _WDTH 694
+3 _HGHT 713
+2 TITL Yvonne Margie Ratzlaff
+1 _OID 8eaec020-a9b7-430f-a7f3-593dab9d051c
+1 _DSCR Ancestry.com. U.S., School Yearbooks, 1900-2016 [database on-line]. Lehi, UT, USA: Ancestry.com Operations, Inc., 2010.
+1 _META <metadataxml><record_source_gid>410268209:1265</record_source_gid></metadataxml>
+1 _CREA 2025-10-20 23:41:57.913
+1 _USER +drMay91zjJyzfEEJnsrX1U6lqZ90ZxLhtdATXciEH9gruVIcFljQgQB0p+uFniI60wi6AEqrplB7+kfqZ6Lzw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O9@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 870799
+3 _WDTH 2228
+3 _HGHT 1834
+2 TITL Yvonne Margie Ratzlaff
+1 _OID 994f6130-6479-465c-a8fb-f751e1dd0ea7
+1 _DSCR Ancestry.com. U.S., School Yearbooks, 1900-2016 [database on-line]. Lehi, UT, USA: Ancestry.com Operations, Inc., 2010.
+1 _META <metadataxml><record_source_gid>410268675:1265</record_source_gid></metadataxml>
+1 _CREA 2025-10-20 23:42:47.247
+1 _USER /Con1V5GaRUtVqPnFlocadFRFD3TjGg9mQJkYbHh6jwcE+CmfFQne8+EbCRUqOVcnbP1Co77GAlOUh6F3XGluQ==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O10@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1343409
+3 _WDTH 2117
+3 _HGHT 3201
+2 TITL Yvonne Margie Ratzlaff
+1 _OID a6cb1f75-ccf2-4ebe-85cb-c4fe1d215998
+1 _DSCR Ancestry.com. U.S., School Yearbooks, 1900-2016 [database on-line]. Lehi, UT, USA: Ancestry.com Operations, Inc., 2010.
+1 _META <metadataxml><record_source_gid>798014565:1265</record_source_gid></metadataxml>
+1 _CREA 2025-10-20 23:40:54.709
+1 _USER 5+6JTSFpKDLRSUQD6ubgIRCpB1gdAp44aImW6jpXIw/R5J2XkqHGFZnxiIWGam/kO2bYiAPO3VXwbV7gGuguLw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O11@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 295717
+3 _WDTH 922
+3 _HGHT 1569
+2 TITL The Smith Kids
+1 _OID aa629dc7-26ec-4d03-af40-d0270a1166a2
+1 DATE 1922
+1 _META <metadataxml><cemetery /><transcription /></metadataxml>
+1 _CREA 2025-10-20 23:14:59.716
+1 _USER adAFH+ObIF/qXblff/fR4nXIkdInhI5gxvTcIM7d0L+AA0E/jHP/zXdIZphFGqOg0eR3Lons7PH3dSPjR5IOBw==
+2 _ENCR 1
+1 _CLON
+2 _TID 72891760
+2 _PID 30263947628
+2 _OID 9bfc8d55-6c44-418e-8d17-72c11b5ddc98
+2 _USER 3InHQOuPkCet3F+CQSePbF7TCNX9yqI9i6AGitDugByeUg5CiqKjBOFznwQsI7ayXRY8JpAvwUoUCoPiI33m0w==
+3 _ENCR 1
+2 _DATE 2014-10-04 19:37:03.000
+1 _ORIG u
+1 _MSER
+2 _LKID 9bfc8d55-6c44-418e-8d17-72c11b5ddc98
+1 _ATL N
+0 @O12@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE portrait
+3 _STYPE jpeg
+3 _SIZE 1227826
+3 _WDTH 2317
+3 _HGHT 3073
+2 TITL Yvonne Margie Ratzlaff
+1 _OID c921f15a-5435-4093-bdd4-52fc1579d360
+1 _DSCR Ancestry.com. U.S., School Yearbooks, 1900-2016 [database on-line]. Lehi, UT, USA: Ancestry.com Operations, Inc., 2010.
+1 _META <metadataxml><record_source_gid>381028753:1265</record_source_gid></metadataxml>
+1 _CREA 2025-10-20 23:40:44.641
+1 _USER lyJ5aJImM8LAnKpX7jgr1sUSg/Pu5KTX5xf4iP0nBmDM1YXfetC9ExBccqBy2P8KVYTCqRN+kbga9kwrcAONpw==
+2 _ENCR 1
+1 _ORIG u
+1 _ATL N
+0 @O13@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _STYPE png
+3 _SIZE 51695
+3 _WDTH 595
+3 _HGHT 475
+2 TITL Ray Elmer Cook
+1 _OID cce3102d-7c4e-4801-b01c-df811f1df348
+1 DATE 1955
+1 PLAC California, USA
+1 _CREA 2025-10-21 00:21:54.692
+1 _USER VjF1gWTBzVTC72GhqBH4/WZpQ4xDhjEWiJdly6lZBnqeGI4XeLTw+TYJTekgt/R2HhPiwE0kBXm5dEpA6YGFnQ==
+2 _ENCR 1
+1 _CLON
+2 _TID 72891760
+2 _PID 202477543493
+2 _OID 5197faf3-b12a-4bf6-b016-06150c426c7f
+2 _USER nwVlpdo/gjBGTjknlpjxb9bDCf/IKqe9bB5gk0OpLkycwfBNoGW5AcqeybG7c0EWsFXEmpCdj9OrzeBYBL25Uw==
+3 _ENCR 1
+2 _DATE 2023-05-27 12:09:43.167
+1 _ORIG u
+1 _MSER
+2 _LKID 5197faf3-b12a-4bf6-b016-06150c426c7f
+1 _ATL N
+0 @O14@ OBJE
+1 FILE
+2 FORM jpg
+3 TYPE image
+3 _MTYPE headstone
+3 _STYPE jpeg
+3 _SIZE 177050
+3 _WDTH 700
+3 _HGHT 467
+2 TITL Cook, JosephNancyvalleyviewcem
+1 _OID f817a910-687a-4d62-a0a8-283da708ce74
+1 DATE 2010
+1 _DSCR photo by Steve Cumins
+1 _META <metadataxml><cemetery>Valley View</cemetery><transcription /><personas><persona><pname>Cook</pname><bdate>1879</bdate><bplace>Macon, Missouri USA</bplace><ddate>1954</ddate><dplace>Silverton, Marion, Oregon</dplace></persona></personas></metadatax
+2 CONC ml>
+1 _CREA 2023-05-24 22:46:32.428
+1 _USER M0eAk+tK64DjKyKibGBECOa3AqylGvC5V8q/NpG0ffkVIgamspMbKzqrvEDM0jctEkcn7R5K0uvroSGaIYyF2w==
+2 _ENCR 1
+1 _CLON
+2 _TID 63539693
+2 _PID 36553264096
+2 _OID a44b7d04-3e9c-4d5a-84f5-2ad8c08a771d
+2 _USER 55PS6zGQ/bmqboiu1zDdgt3KtIQPrQkLhLMjDuXRtm9s4lw9D9q0A2Y2/uqvqBTiMD9HAi6E3Xztu+7cSZ0Img==
+3 _ENCR 1
+2 _DATE 2016-01-13 22:11:45.000
+1 _ORIG u
+1 _MSER
+2 _LKID a44b7d04-3e9c-4d5a-84f5-2ad8c08a771d
+1 _ATL N
+0 @S1299084913@ SOUR
+1 TITL Ancestry Family Trees
+1 PUBL Online publication - Provo, UT, USA: Ancestry.com.  Original data:  Family Tree files submitted by Ancestry members.
+1 _APID 1,1030::0
+1 REPO @R1205732197@
+0 @S1299085687@ SOUR
+1 TITL Geneanet Community Trees Index
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2022
+2 PLAC Lehi, UT, USA
+1 _APID 1,62476::0
+1 REPO @R1205732197@
+1 NOTE &lt;i&gt;Geneanet Community Trees Index&lt;/i&gt;. Paris, France: Geneanet.
+0 @S1299099809@ SOUR
+1 TITL U.S., Newspapers.com™ Marriage Index, 1800s-current
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2020
+2 PLAC Lehi, UT, USA
+1 _APID 1,62116::0
+1 REPO @R1205732197@
+1 NOTE See newspaper information provided with each entry.
+0 @S1326781820@ SOUR
+1 TITL U.S., Index to Public Records, 1994-2019
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2020
+2 PLAC Lehi, UT, USA
+1 _APID 1,62209::0
+1 REPO @R1205732197@
+0 @S1326781864@ SOUR
+1 TITL California Birth Index, 1905-1995
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2005
+2 PLAC Provo, UT, USA
+1 _APID 1,5247::0
+1 REPO @R1205732197@
+0 @S1326781877@ SOUR
+1 TITL Florida, U.S., Divorce Index, 1927-2001
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2005
+2 PLAC Provo, UT, USA
+1 _APID 1,8837::0
+1 REPO @R1205732197@
+0 @S1326782119@ SOUR
+1 TITL Minnesota, U.S., Death Index, 1908-2017
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2001
+2 PLAC Lehi, UT, USA
+1 _APID 1,7316::0
+1 REPO @R1205732197@
+0 @S1326782123@ SOUR
+1 TITL 1940 United States Federal Census
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2012
+2 PLAC Provo, UT, USA
+1 _APID 1,2442::0
+1 REPO @R1205732197@
+0 @S1326782133@ SOUR
+1 TITL California, U.S., Marriage Index, 1949-1959
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2013
+2 PLAC Provo, UT, USA
+1 _APID 1,5186::0
+1 REPO @R1205732197@
+0 @S1326782139@ SOUR
+1 TITL U.S., Public Records Index, 1950-1993, Volume 1
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2010
+2 PLAC Lehi, UT, USA
+1 _APID 1,1788::0
+1 REPO @R1205732197@
+0 @S1326782163@ SOUR
+1 TITL U.S., Find a Grave® Index, 1600s-Current
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2012
+2 PLAC Lehi, UT, USA
+1 _APID 1,60525::0
+1 REPO @R1205732197@
+0 @S1326782170@ SOUR
+1 TITL U.S., City Directories, 1822-1995
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2011
+2 PLAC Lehi, UT, USA
+1 _APID 1,2469::0
+1 REPO @R1205732197@
+0 @S1326782175@ SOUR
+1 TITL 1950 United States Federal Census
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2022
+2 PLAC Lehi, UT, USA
+1 _APID 1,62308::0
+1 REPO @R1205732197@
+0 @S1326782186@ SOUR
+1 TITL U.S., Newspapers.com™ Obituary Index, 1800s-current
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2019
+2 PLAC Lehi, UT, USA
+1 _APID 1,61843::0
+1 REPO @R1205732197@
+0 @S1326782225@ SOUR
+1 TITL California, U.S., Newspapers.com™ Stories and Events Index, 1800's-current
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2022
+2 PLAC Lehi, UT, USA
+1 _APID 1,50029::0
+1 REPO @R1205732197@
+0 @S1326782233@ SOUR
+1 TITL U.S., School Yearbooks, 1900-2016
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations, Inc.
+2 DATE 2010
+2 PLAC Lehi, UT, USA
+1 _APID 1,1265::0
+1 REPO @R1205732197@
+0 @S1326782239@ SOUR
+1 TITL California, U.S., Voter Registrations, 1900-1968
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2017
+2 PLAC Provo, UT, USA
+1 _APID 1,61066::0
+1 REPO @R1205732197@
+0 @S1326782314@ SOUR
+1 TITL Texas, U.S., Birth Index, 1903-1997
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2005
+2 PLAC Lehi, UT, USA
+1 _APID 1,8781::0
+1 REPO @R1205732197@
+0 @S1326782325@ SOUR
+1 TITL U.S., Newspapers.com™ Birth Index, 1800s-2003
+1 AUTH Ancestry.com
+1 PUBL Ancestry.com Operations Inc
+2 DATE 2024
+2 PLAC Lehi, UT, USA
+1 _APID 1,62945::0
+1 REPO @R1205732197@
+0 @R1205732197@ REPO
+1 NAME Ancestry.com
+0 @T24@ _MTTAG
+1 NAME Verified
+1 RIN 24
+1 _VISI 1
+1 _MTCAT @C5@
+0 @T23@ _MTTAG
+1 NAME Unverified
+1 RIN 23
+1 _VISI 1
+1 _MTCAT @C5@
+0 @C5@ _MTCAT
+1 NAME Research
+1 RIN 5
 0 TRLR
